@@ -6,7 +6,7 @@
 Options +FollowSymlinks
 RewriteEngine On
 
-RewriteBase /biblioteca/
+RewriteBase /
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
